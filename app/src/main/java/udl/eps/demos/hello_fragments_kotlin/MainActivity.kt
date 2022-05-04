@@ -14,9 +14,5 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
-        //val frag = childFragmentManager.findFragmentById(binding.frag_capt.id) as Fragment
-
-        //setContentView(R.layout.activity_main)
     }
 }
